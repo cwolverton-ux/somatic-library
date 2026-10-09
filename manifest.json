@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-08T00:00:00Z",
+  "forms": [
+    {
+      "id": "orienting",
+      "name": "Orienting",
+      "description": "Gently looking around to let the nervous system register that you are safe here.",
+      "color": "#5E9C88"
+    },
+    {
+      "id": "havening",
+      "name": "Havening",
+      "description": "Soothing touch on the arms, face or hands.",
+      "color": "#C08A5B"
+    },
+    {
+      "id": "breathwork",
+      "name": "Breathwork",
+      "description": "Paced breathing to shift your state.",
+      "color": "#6E83C2"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "feet-on-floor",
+      "title": "Feet on the Floor",
+      "summary": "Ground through your feet, then orient.",
+      "mediaType": "audio",
+      "mediaURL": "media/feet-on-floor.m4a",
+      "durationSec": 12,
+      "segments": [
+        {
+          "form": "orienting",
+          "startSec": 0,
+          "durationSec": 12
+        }
+      ],
+      "tags": [
+        "grounding"
+      ],
+      "addedAt": "2026-10-08"
+    },
+    {
+      "id": "orient-look-around",
+      "title": "Look Around",
+      "summary": "Let your eyes wander and notice what is here.",
+      "mediaType": "audio",
+      "mediaURL": "media/orient-look-around.m4a",
+      "durationSec": 13,
+      "segments": [
+        {
+          "form": "orienting",
+          "startSec": 0,
+          "durationSec": 13
+        }
+      ],
+      "tags": [
+        "short",
+        "anytime"
+      ],
+      "addedAt": "2026-10-01"
+    },
+    {
+      "id": "box-breathing",
+      "title": "Box Breathing",
+      "summary": "In, hold, out, hold, four counts each.",
+      "mediaType": "audio",
+      "mediaURL": "media/box-breathing.m4a",
+      "durationSec": 13,
+      "segments": [
+        {
+          "form": "breathwork",
+          "startSec": 0,
+          "durationSec": 13
+        }
+      ],
+      "tags": [
+        "short",
+        "calming"
+      ],
+      "addedAt": "2026-10-01"
+    },
+    {
+      "id": "havening-touch",
+      "title": "Arm Havening",
+      "summary": "Slow strokes from shoulders to elbows.",
+      "mediaType": "audio",
+      "mediaURL": "media/havening-touch.m4a",
+      "durationSec": 11,
+      "segments": [
+        {
+          "form": "havening",
+          "startSec": 0,
+          "durationSec": 11
+        }
+      ],
+      "tags": [
+        "short",
+        "soothing"
+      ],
+      "addedAt": "2026-10-03"
+    },
+    {
+      "id": "morning-settle",
+      "title": "Morning Settle",
+      "summary": "Orient to the room, then slow breathing.",
+      "mediaType": "audio",
+      "mediaURL": "media/morning-settle.m4a",
+      "durationSec": 15,
+      "segments": [
+        {
+          "form": "orienting",
+          "startSec": 0,
+          "durationSec": 8
+        },
+        {
+          "form": "breathwork",
+          "startSec": 8,
+          "durationSec": 7
+        }
+      ],
+      "tags": [
+        "morning"
+      ],
+      "addedAt": "2026-10-05"
+    },
+    {
+      "id": "somatic-practice-inner-safety",
+      "title": "Somatic Practice for Inner Safety",
+      "summary": "A short somatic practice for creating a sense of inner safety in your body.",
+      "mediaType": "video",
+      "mediaURL": "media/Somatic-Practice-for-Inner-Safety.mp4",
+      "durationSec": 355,
+      "segments": [
+        {
+          "form": "havening",
+          "startSec": 0,
+          "durationSec": 90
+        },
+        {
+          "form": "havening",
+          "startSec": 90,
+          "durationSec": 135
+        },
+        {
+          "form": "havening",
+          "startSec": 225,
+          "durationSec": 45
+        },
+        {
+          "form": "breathwork",
+          "startSec": 270,
+          "durationSec": 85
+        }
+      ],
+      "tags": [
+        "grounding"
+      ],
+      "addedAt": "2026-10-08"
+    }
+  ]
+}
