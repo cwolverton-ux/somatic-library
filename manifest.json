@@ -19,6 +19,12 @@
       "name": "Breathwork",
       "description": "Paced breathing to shift your state.",
       "color": "#6E83C2"
+    },
+    {
+      "id": "body-scan",
+      "name": "Body scan",
+      "description": "Noticing your body.",
+      "color": "#9A72A8"
     }
   ],
   "exercises": [
@@ -158,6 +164,40 @@
         "grounding"
       ],
       "addedAt": "2026-10-08"
+    },
+    {
+      "id": "body-scan",
+      "title": "Somatic Practice with Body Scan",
+      "summary": "A short somatic practice followed by a body scan.",
+      "mediaType": "audio",
+      "mediaURL": "media/body-scan.m4a",
+      "durationSec": 1617,
+      "segments": [
+        {
+          "form": "orienting",
+          "startSec": 0,
+          "durationSec": 177
+        },
+        {
+          "form": "havening",
+          "startSec": 177,
+          "durationSec": 112
+        },
+        {
+          "form": "breathwork",
+          "startSec": 289,
+          "durationSec": 381
+        },
+        {
+          "form": "body-scan",
+          "startSec": 670,
+          "durationSec": 948
+        }
+      ],
+      "tags": [
+        "body-scan"
+      ],
+      "addedAt": "2026-10-12"
     }
   ]
 }
